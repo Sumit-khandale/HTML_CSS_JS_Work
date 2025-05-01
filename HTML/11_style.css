@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
+
+li {
+   display: inline-block;
+   padding: 30px;
+   font-size: 20px;
+}
+li:hover{
+    background-color: rgb(237, 91, 29);
+    border-radius: 20px;
+}

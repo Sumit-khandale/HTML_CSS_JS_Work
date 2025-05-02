@@ -1,0 +1,8 @@
+/* Example of Grouping selector */
+h1,p{
+    color: red;   
+    font-size: 30px;
+}
+h2{
+    color:blue;
+}

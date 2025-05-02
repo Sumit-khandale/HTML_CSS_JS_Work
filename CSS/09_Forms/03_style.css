@@ -1,0 +1,13 @@
+div{
+    background-color: aqua;
+    width: 20%;
+    height: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+body{
+    background-image: url(H:\\HTML-CSS-JS\\CSS\\Images\\css.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}

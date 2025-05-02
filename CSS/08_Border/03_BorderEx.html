@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr,td{
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        table{
+            width: 50%;
+            text-align: center;
+            background-color: aqua;
+        }
+        th,td{
+            height: 30px;
+        }
+        tr:hover{
+            background-color: orange;
+        }
+        th{
+            background-color: greenyellow;
+        }
+        td:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4" style="background-color: palevioletred;">Student Information</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Savings</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>sam</td>
+            <td>patil</td>
+            <td>20000</td>
+            <td rowspan="2">CS</td>
+        </tr>
+        <tr>
+            <td>Smith</td>
+            <td>Jadhav</td>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>kadam</td>
+            <td>23000</td>
+            <td>ME</td>
+        </tr>
+    </table>
+</body>
+</html>
